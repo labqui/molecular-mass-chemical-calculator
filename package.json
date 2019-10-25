@@ -1,0 +1,29 @@
+{
+  "name": "molecular-mass-chemical-calculator",
+  "version": "0.0.1",
+  "description": "Calculates the molecular weight of a chemical formula (ie. CH3COOH, H2O, H2SO4, K3[Fe(CN)6], CuNO3*4H2O, etc...)",
+  "main": "index.js",
+  "author": {
+    "name": "Thalles Ramon Rosa",
+    "email": "thalles_ramon@hotmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "tape": "^4.11.0"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "chemical",
+    "formula",
+    "mass",
+    "molecule"
+  ],
+  "engine": {
+    "node": ">=0.4.0"
+  }
+}
